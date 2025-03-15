@@ -1,5 +1,6 @@
 package bg.uni.sofia.peak.motion.hiker;
 
+import bg.uni.sofia.peak.motion.hiker.SecureKafkaStreamProcessor.KafkaProducerService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,5 +10,4 @@ public class PeakMotionApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PeakMotionApplication.class, args);
 	}
-
 }
